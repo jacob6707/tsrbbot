@@ -1,0 +1,41 @@
+{
+  "name": "tsrbbot",
+  "version": "1.0.0",
+  "engines": {
+    "node": "16.x"
+  },
+  "description": "TSRB Bot",
+  "main": "bot.js",
+  "scripts": {
+    "start": "node bot.js"
+  },
+  "author": "Jacob",
+  "license": "ISC",
+  "dependencies": {
+    "@discordjs/builders": "^0.6.0",
+    "@discordjs/opus": "^0.5.3",
+    "@discordjs/rest": "^0.1.0-canary.0",
+    "@discordjs/voice": "^0.6.0",
+    "@distube/spotify": "^0.6.4",
+    "@distube/ytpl": "^1.0.12",
+    "@distube/ytsr": "^1.1.5",
+    "ascii-table": "^0.0.9",
+    "axios": "^0.22.0",
+    "common-tags": "^1.8.0",
+    "discord-api-types": "^0.23.1",
+    "discord.js": "^13.1.0",
+    "discord.js-multilingual-utils": "^1.7.2",
+    "distube": "^3.0.0-beta.39",
+    "dotenv": "^11.0.0",
+    "ffmpeg-static": "^4.4.0",
+    "fs": "^0.0.1-security",
+    "html-to-text": "^8.0.0",
+    "mongoose": "^5.13.9",
+    "node-cron": "^3.0.0",
+    "nodemon": "^2.0.13",
+    "puppeteer": "^13.0.0",
+    "tabletojson": "^2.0.7",
+    "tweetnacl": "^1.0.3",
+    "ytdl-core": "^4.9.1"
+  }
+}

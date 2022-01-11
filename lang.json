@@ -1,0 +1,393 @@
+{
+    "languages": ["english", "croatian"],
+    "translations": {
+        "COMMANDS_CHANNEL_DESC": {
+            "english": "Set channel for automatic posting of schedule changes.",
+            "croatian": "Postavi kanal za automatsko slanje izmjena u rasporedu."
+        },
+        "COMMANDS_CLEARARR_DESC": {
+            "english": "Clears array izmjene",
+            "croatian": "Isprazni listu izmjene"
+        },
+        "COMMANDS_COLOR_DESC": {
+            "english": "Set embed color (in hex: #FF0000 - red)",
+            "croatian": "Postavi boju za embedove (u hex: #FF0000 - crvena)"
+        },
+        "COMMANDS_LANG_DESC": {
+            "english": "Set bot language",
+            "croatian": "Postavi jezik bota"
+        },
+        "COMMANDS_PREFIX_DESC": {
+            "english": "Set the prefix for this server",
+            "croatian": "Postavi prefiks za ovaj server"
+        },
+        "COMMANDS_CLASS_DESC": {
+            "english": "Set class for schedule changes",
+            "croatian": "Postavi kanal za izmjene"
+        },
+        "COMMANDS_COMMANDS_DESC": {
+            "english": "Displays a full list of bot commands",
+            "croatian": "Prikaže punu listu botovih naredba"
+        },
+        "COMMANDS_HELP_DESC": {
+            "english": "Displays bot help message",
+            "croatian": "Prikaže botovu poruku za pomoć"
+        },
+        "COMMANDS_IZMJENE_DESC": {
+            "english": "Sends the current schedule changes from the TSRB website",
+            "croatian": "Pošalje trenutne izmjene sa TŠRB stranice"
+        },
+        "COMMANDS_PING_DESC": {
+            "english": "Returns bot and API latency in milliseconds",
+            "croatian": "Vrati botovu i API latenciju u milisekundama"
+        },
+        "COMMANDS_SAY_DESC": {
+            "english": "The bot repeats what you tell it to",
+            "croatian": "Bot ponovi što mu kažeš"
+        },
+        "COMMANDS_FILTER_DESC": {
+            "english": "Set an audio filter to the music playback",
+            "croatian": "Postavi audio-filter na puštanje glazbe"
+        },
+        "COMMANDS_PAUSE_DESC": {
+            "english": "Pause the song playback",
+            "croatian": "Pauziraj puštanje glazbe"
+        },
+        "COMMANDS_PLAY_DESC": {
+            "english": "Play a song from YouTube",
+            "croatian": "Pusti pjesmu sa YouTube-a"
+        },
+        "COMMANDS_QUEUE_DESC": {
+            "english": "View current song queue",
+            "croatian": "Prikaži trenutni red pjesama"
+        },
+        "COMMANDS_REPEAT_DESC": {
+            "english": "Set playback to repeat",
+            "croatian": "Postavi glazbu da se ponavlja"
+        },
+        "COMMANDS_RESUME_DESC": {
+            "english": "Resume playback",
+            "croatian": "Nastavi puštanje glazbe"
+        },
+        "COMMANDS_SKIP_DESC": {
+            "english": "Skip song",
+            "croatian": "Preskoči pjesmu"
+        },
+        "COMMANDS_STOP_DESC": {
+            "english": "Stop playback of queue",
+            "croatian": "Zaustavi puštanje glazbe iz reda"
+        },
+        "COMMANDS_VOLUME_DESC": {
+            "english": "Set playback volume",
+            "croatian": "Postavi glasnoću puštanja glazbe"
+        },
+        "ERR_NOPERM": {
+            "english": "You do not have permission to execute this command!",
+            "croatian": "Nemate ovlasti za izvršavanje ove naredbe!"
+        },
+        "ERR_NOVOICE": {
+            "english": "You must be in a voice channel to execute this command.",
+            "croatian": "Morate biti u glasovnom kanalu da izvršite naredbu."
+        },
+        "BOT_LATENCY": {
+            "english": "Bot Latency is",
+            "croatian": "Latencija bota iznosi:"
+        },
+        "API_LATENCY": {
+            "english": "API Latency is",
+            "croatian": "Latencija API iznosi:"
+        },
+        "HELP_COMMANDS": {
+            "english": "For a full list of commands, please type",
+            "croatian": "Za popis svih naredbi, napišite"
+        },
+        "HELP_INFO": {
+            "english": "To see more info about a specific command, please type",
+            "croatian": "Kako biste vidjeli više pojedinosti o jednoj naredbi, napišite"
+        },
+        "HELP_INFO_WITHOUT": {
+            "english": "without the",
+            "croatian": "bez"
+        },
+        "HELP_ABOUT_BOT": {
+            "english": "About",
+            "croatian": "O botu"
+        },
+        "HELP_MADE_BY": {
+            "english": "TSRB Bot made by: Jacob.#6707",
+            "croatian": "TSRB Bot je napravio: Jacob.#6707"
+        },
+        "HELP_NO_INFO": {
+            "english": "No information found for command",
+            "croatian": "Nisam pronašao pojedinosti za naredbu"
+        },
+        "HELP_COMMANDNAME": {
+            "english": "Command Name",
+            "croatian": "Ime naredbe"
+        },
+        "HELP_ALIASES": {
+            "english": "Aliases",
+            "croatian": "Druga imena"
+        },
+        "HELP_DESCRIPTION": {
+            "english": "Description",
+            "croatian": "Opis"
+        },
+        "HELP_USAGE": {
+            "english": "Usage",
+            "croatian": "Korištenje"
+        },
+        "HELP_REQUIRED": {
+            "english": "REQUIRED",
+            "croatian": "OBAVEZNO"
+        },
+        "HELP_OPTIONAL": {
+            "english": "OPTIONAL",
+            "croatian": "IZBORNO"
+        },
+        "HELP_USAGE2": {
+            "english": "Usage 2",
+            "croatian": "2. korist"
+        },
+        "COMMANDS_COMMANDLIST": {
+            "english": "Command list",
+            "croatian": "Popis naredbi"
+        },
+        "COMMANDS_USE": {
+            "english": "Use",
+            "croatian": "Koristi"
+        },
+        "COMMANDS_MOREINFORMATION": {
+            "english": "to see more information about a specific command.",
+            "croatian": "kako biste vidjeli više pojedinosti o nekoj naredbi."
+        },
+        "IZMJENE_IZMJENE": {
+            "english": "Schedule changes",
+            "croatian": "Izmjene"
+        },
+        "ERR_NOCLASS": {
+            "english": "Invalid class!",
+            "croatian": "Neispravan razred!"
+        },
+        "ERR_NOPREFIX": {
+            "english": "You must specify a prefix to set for this server! Your current prefix is",
+            "croatian": "Morate navesti prefiks koji biste postavili za ovaj server! Vaš trenutni prefiks je:"
+        },
+        "PREFIX_CHANGED": {
+            "english": "Your server prefix has been updated to",
+            "croatian": "Vaš prefiks za server je promijenjen na:"
+        },
+        "ERR_NOARGS": {
+            "english": "You must specify an argument.",
+            "croatian": "Morate navesti argument."
+        },
+        "ERR_NOLANG": {
+            "english": "That language is not supported.",
+            "croatian": "Taj jezik nije podržan."
+        },
+        "LANG_SET": {
+            "english": "Language set!",
+            "croatian": "Jezik postavljen!"
+        },
+        "ERR_ONEARG": {
+            "english": "Please specify one argument.",
+            "croatian": "Navedite samo jedan argument."
+        },
+        "ERR_NOCOLOR": {
+            "english": "Invalid color.",
+            "croatian": "Neispravna boja."
+        },
+        "EMBED_COLORCHANGED_TITLE": {
+            "english": "Embed color changed!",
+            "croatian": "Promijenjena boja embeda!"
+        },
+        "EMBED_COLORCHANGED_DESC": {
+            "english": "Embed color set to",
+            "croatian": "Boja embeda postavljena na:"
+        },
+        "CLASS_SET": {
+            "english": "Class set to",
+            "croatian": "Razred postavljen na"
+        },
+        "CLASS_REMOVED": {
+            "english": "Class removed!",
+            "croatian": "Razred ukinut!"
+        },
+        "ERR_PRINTDISABLED" : {
+            "english": "Printing of schedule changes has been disabled by your administrator.",
+            "croatian": "Printanje izmjena je onemogućio vaš administrator."
+        },
+        "CHANNEL_SET": {
+            "english": "Channel set to",
+            "croatian": "Kanal postavljen na:"
+        },
+        "ERR_NOCHANNEL": {
+            "english": "Invalid channel",
+            "croatian": "Neispravan kanal:"
+        },
+        "ERR_NOQUEUE": {
+            "english": "There is nothing in the queue right now!",
+            "croatian": "Trenutno nema ničega u redu!"
+        },
+        "ERR_NAN": {
+            "english": "Please enter a valid number!",
+            "croatian": "Navedite ispravan broj!"
+        },
+        "ERR_NOFILTER": {
+            "english": "Not a valid filter",
+            "croatian": "Neispravan filtar"
+        },
+        "CURR_FILTER": {
+            "english": "Current Queue Filter:",
+            "croatian": "Trenutni filtri u redu:"
+        },
+        "RESUME_SONG": {
+            "english": "Resumed music playback",
+            "croatian": "Nastavljam puštanje glazbe"
+        },
+        "PAUSE_SONG": {
+            "english": "Paused song playback",
+            "croatian": "Pauziram puštanje glazbe"
+        },
+        "ERR_QUEUEPLAYING": {
+            "english": "The queue is already playing!",
+            "croatian": "Glazba se već pušta!"
+        },
+        "ERR_NOSONGSPECIFIED": {
+            "english": "Please enter a song to play.",
+            "croatian": "Unesite pjesmu koju želite pustiti."
+        },
+        "ERR_GENERIC": {
+            "english": "Error:",
+            "croatian": "Greška:"
+        },
+        "QUEUE_PLAYING": {
+            "english": "Playing:",
+            "croatian": "Trenutno puštam:"
+        },
+        "QUEUE": {
+            "english": "Server Queue",
+            "croatian": "Red"
+        },
+        "ERR_NOREPEATARG": {
+            "english": "You must specify the repeat mode!",
+            "croatian": "Moraš navesti način ponavljanja!"
+        },
+        "ERR_INVALIDREPEATMODE": {
+            "english": "Please enter a valid repeat mode!",
+            "croatian": "Navedi ispravan način ponavljanja!"
+        },
+        "REPEAT_QUEUE": {
+            "english": "Repeat queue",
+            "croatian": "Ponavljaj red"
+        },
+        "REPEAT_SONG": {
+            "english": "Repeat song",
+            "croatian": "Ponavljaj pjesmu"
+        },
+        "OFF": {
+            "english": "Off",
+            "croatian": "Isključeno"
+        },
+        "SET_REPEAT_MODE": {
+            "english": "Set repeat mode to",
+            "croatian": "Postavljen način ponavljanja na:"
+        },
+        "ERR_SKIPLAST": {
+            "english": "Can't skip the last song!",
+            "croatian": "Ne mogu preskočiti zadnju pjesmu!"
+        },
+        "SKIPPED": {
+            "english": "Skipped!",
+            "croatian": "Preskočeno!"
+        },
+        "STOPPED": {
+            "english": "Stopped!",
+            "croatian": "Zaustavljeno!"
+        },
+        "VOLUME_SET": {
+            "english": "Volume set to",
+            "croatian": "Glasnoća postavljena na:"
+        },
+        "SONGS": {
+            "english": "songs",
+            "croatian": "pjesama"
+        },
+        "ADDED_PLAYLIST": {
+            "english": "Added playlist",
+            "croatian": "Dodana playlista"
+        },
+        "TO_QUEUE": {
+            "english": "to the queue!",
+            "croatian": "u red!"
+        },
+        "ADDED_SONG": {
+            "english": "Added song",
+            "croatian": "Dodana pjesma"
+        },
+        "TO_QUEUE_BY": {
+            "english": "to the queue by",
+            "croatian": "u red od"
+        },
+        "DIST_ERROR_OCCURED": {
+            "english": "An error occured:",
+            "croatian": "Dogodila se greška:"
+        },
+        "VOLUME": {
+            "english": "Volume:",
+            "croatian": "Glasnoća:"
+        },
+        "FILTER": {
+            "english": "Filter:",
+            "croatian": "Filtar:"
+        },
+        "LOOP": {
+            "english": "Loop:",
+            "croatian": "Ponavljanje:"
+        },
+        "ALL_QUEUE": {
+            "english": "All queue",
+            "croatian": "Cijeli red"
+        },
+        "THIS_SONG": {
+            "english": "This song",
+            "croatian": "Ova pjesma"
+        },
+        "AUTOPLAY": {
+            "english": "Autoplay:",
+            "croatian": "Autoplay:"
+        },
+        "ON": {
+            "english": "On",
+            "croatian": "Uključeno"
+        },
+        "REQ_BY": {
+            "english": "Requested by:",
+            "croatian": "Zatražio:"
+        },
+        "ERR_SEARCH_CANCELLED": {
+            "english": "Searching cancelled.",
+            "croatian": "Traženje prekinuto."
+        },
+        "ERR_SEARCH_NORESULT": {
+            "english": "No result found for",
+            "croatian": "Nije pronađen rezultat za"
+        },
+        "SEARCH_CHOOSEOPTION": {
+            "english": "Choose an option from below:",
+            "croatian": "Izaberite jedan izbor od navedenog:"
+        },
+        "SEARCH_FOOTER": {
+            "english": "Enter anything else or wait 60 seconds to cancel",
+            "croatian": "Izaberite išta drugo ili pričekajte 60 sekundi da prekinete pretragu"
+        },
+        "ERR_NOATTACH": {
+            "english": "You must attach a file to execute this command.",
+            "croatian": "Trebate poslati privitak kako biste izvršili ovu naredbu."
+        },
+        "COMMANDS_PDF_DESC": {
+            "english": "Convert a file to PDF (file must be sent as an attachment)",
+            "croatian": "Pretvori datoteku u PDF (datoteka se šalje kao attachment)"
+        }
+    }
+}
