@@ -11,7 +11,7 @@ module.exports = {
     /** @param {...Message} message */
     run: (client, message, args) => {
         message.delete();
-        if (!message.member.id == "263007401144352769") {
+        if (message.member.id != "263007401144352769") {
             return message.channel.send('Nisi moj vladar pička ti materina').then(m => {setTimeout(() => m.delete(), 10000)});
         };
         client.izmjeneA = [];
