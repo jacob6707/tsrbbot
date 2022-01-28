@@ -19,8 +19,8 @@ module.exports = async client => {
             type: 'LISTENING'
         }]
     });
-    func.get_izmjene(client,config.aSmjena);
+    func.get_izmjene(client);
     cron.schedule('0 * 6-23 * * *', () => {
-        func.get_izmjene(client,config.aSmjena);
+        func.get_izmjene(client);
     });
 };

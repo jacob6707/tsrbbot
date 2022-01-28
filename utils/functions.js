@@ -16,12 +16,10 @@ const language = require('./language');
 async function get_izmjene(client) {
 	const oldArrA = client.izmjeneA.slice();
 	const oldArrB = client.izmjeneB.slice();
-	//client.izmjeneA = [];
-	//client.izmjeneB = [];
     client.izmjeneA = await axios.get(config.aSmjena).then(response => parse_izmjene(client.izmjeneA,response));
 	client.izmjeneB = await axios.get(config.bSmjena).then(response => parse_izmjene(client.izmjeneB,response));
-	if (!arrayEquals(oldArrA,client.izmjeneA)) bcIzmjene(client, "A", oldArrA);
-	if (!arrayEquals(oldArrB,client.izmjeneB)) bcIzmjene(client, "B", oldArrB);
+	if (!arrayEquals(oldArrA,client.izmjeneA) && oldArrA.length > 0) bcIzmjene(client, "A", oldArrA);
+	if (!arrayEquals(oldArrB,client.izmjeneB) && oldArrB.length > 0) bcIzmjene(client, "B", oldArrB);
 }
 
 /**
